@@ -44,7 +44,7 @@
 			
 			unset($_SESSION['blad']);
 			$rezultat->free_result();
-			header('Location:gra.php');
+			header('Location:plansza.html');
 			
 			echo $user;
 		} else {

@@ -19,7 +19,6 @@
 <body>
 
 <?php
-	
 	echo "<p>Witaj ".$_SESSION['user'].'! [ <a href="logout.php">Wyloguj się!</a> ]</p>';
 	echo "<p><b>Drewno</b>:".$_SESSION['drewno'];
 	echo " | <b>Kamień</b>:".$_SESSION['kamien'];

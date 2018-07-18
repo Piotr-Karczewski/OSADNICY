@@ -6,10 +6,8 @@
 	{
 		header('Location: gra.php');
 		exit();
-		
 	}
 ?>
-
 
 <!DOCTYPE HTML>
 <html lang="pl" />
@@ -21,7 +19,7 @@
 
 <body>
 
-	Tylko martwi ujrzeli koniec wojny - Platon <br /><br />
+	Tylko martwi ujrzeli koniec wojny - Platon!! <br /><br />
 	
 	<a href="rejestracja.php">Rejestracja - załóż darmowe konto!</a>
 	<br /><br />
@@ -30,7 +28,7 @@
 	
 	Login :<br /> <input type="text" name="login" /> <br />
 	Hasło :<br /> <input type="password" name="haslo" /> <br />
-	<input type="submit" value="Zalouj się" />
+	<input type="submit" value="Zaloguj się" />
 	
 	</form>
 	
