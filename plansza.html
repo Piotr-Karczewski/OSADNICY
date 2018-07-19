@@ -29,27 +29,42 @@
           $( "#dialog" ).dialog( "open" );
         });
       } );
-      </script>
+    </script>
     
 </head>
 <body class="bg">
+    
+
+<div class="stars"></div>
+<div class="twinkling"></div>
+<div class="clouds"></div>
+    
+    
+<script src="js/scriptMoj.js"></script>    
+    
 <div id="dialog" title="INFORMACJE O PLANECIE">
-        <p>Mars, planeta skalista, jądro stałe, atmosfera 0.15 atmosfery ziemskiej...</p>
+    <p>Mars, planeta skalista, jądro stałe, atmosfera 0.15 atmosfery ziemskiej..BLABLA.</p>
     <button type="button" class="btn btn-secondary">
         <a href="gra.php">EKSPLORUJ</a>
     </button>
 </div>
  
+<!--
 <button id="opener"> 
     <mars>
        <img src="img/2000px-Mars_SAVE.svg.png">
     </mars>
 </button>
-    
-<!--
-    <mars>
-       <img src="2000px-Mars_SAVE.svg.png">
-    </mars>
 -->
+    
+<div id="kontener1">
+		
+    <svg id="opener"height="250" width="250">
+     <circle id="circle" cx="125" cy="125" r="125" stroke="transparent" stroke-width="3" fill="transparent" />
+    </svg>
+    <img id="planeta" src="img/2000px-Mars_SAVE.svg.png"/>
+
+</div>
+
 </body>
 </html>

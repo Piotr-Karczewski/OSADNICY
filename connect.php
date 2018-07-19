@@ -1,8 +1,8 @@
 <?php
 
-	$host = "localhost";
-	$db_user = "root";
-	$db_password = "";
-	$db_name = "osadnicy";
+	$host = "sql.webpros-dev.nazwa.pl";
+	$db_user = "webpros-dev_frontgup3";
+	$db_password = "FrontGup3";
+	$db_name = "webpros-dev_frontgup3";
 
 ?>
