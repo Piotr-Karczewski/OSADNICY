@@ -49,7 +49,7 @@
 			echo $user;
 		} else {
 			
-			$_SESSION['blad'] = '<span style="color:red"> Nieprawidłowy login lub hasło!</span>';
+			$_SESSION['blad'] = '<span class="bg-dark text-white""> Nieprawidłowy login lub hasło!</span>';
 			header('Location: index.php'); 
 		}
 		

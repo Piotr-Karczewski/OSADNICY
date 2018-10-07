@@ -19,32 +19,22 @@
 	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 </head>
 
-<body>
-
+<body class="bg-primary text-white">
 	Zostań wybrańcem! Przywróć równowagę mocy<br /><br />
 	
-	<a href="rejestracja.php">Rejestracja - załóż darmowe konto!</a>
+	<a class="bg-secondary text-white href="rejestracja.php">Rejestracja - załóż BAAAAAARDZO DROGIE KONTO!</a>
 	<br /><br />
-	
 	<form action="zaloguj.php" method="post">
-	
-	Login :<br /> <input type="text" name="login" /> <br />
-	Hasło :<br /> <input type="password" name="haslo" /> <br />
-	<input type="submit" value="Zaloguj się" />
-	
-	</form>
-	
-	<form>
   <div class="form-group">
-    <label for="formGroupExampleInput">Example label</label>
-    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+    <label for="formGroupExampleInput">Podaj swoją nazwę</label>
+    <input name="login" type="text" class="form-control" id="formGroupExampleInput" placeholder="Nazwa Użytkownika">
   </div>
   <div class="form-group">
-    <label for="formGroupExampleInput2">Another label</label>
-    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+    <label for="formGroupExampleInput2">Podaj swoje hasło</label>
+    <input name="haslo" type="text" class="form-control" id="formGroupExampleInput2" placeholder="Hasło">
   </div>
-</form>
-	
+  <input type="submit" value="Zaloguj się" />
+</form>	
 <?php
 	if(isset($_SESSION['blad'])) echo $_SESSION['blad'];
 ?>
